@@ -49,3 +49,9 @@ try {
     wordlists.EN = _default;
 }
 catch (err) { }
+try {
+    exports._default = _default = require('./wordlists/latin.json');
+    wordlists.latin = _default;
+    wordlists.LN = _default;
+}
+catch (err) { }
